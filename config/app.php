@@ -1,7 +1,16 @@
 <?php
 
 return [
-
+	
+	/*
+	|--------------------------------------------------------------------------
+	| Added a sitename
+	|--------------------------------------------------------------------------
+	|
+	*/
+	
+	'sitename' => 'PizzaOrder',
+	
 	/*
 	|--------------------------------------------------------------------------
 	| Application Debug Mode
@@ -139,11 +148,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'PizzaOrder\Providers\AppServiceProvider',
+		'PizzaOrder\Providers\BusServiceProvider',
+		'PizzaOrder\Providers\ConfigServiceProvider',
+		'PizzaOrder\Providers\EventServiceProvider',
+		'PizzaOrder\Providers\RouteServiceProvider',
 
 	],
 

@@ -1,4 +1,13 @@
-<?php namespace App\Http\Controllers;
+<?php 
+namespace PizzaOrder\Http\Controllers;
+	
+	/* 
+	use Config; se doda prije klase da proradi Config::get(); 
+	druga metoda je koristiti config('nesto.nesto'), 
+	treća staviti '\' ispred Config::get()
+	*/
+	
+use Config; 
 
 class WelcomeController extends Controller {
 
@@ -36,6 +45,11 @@ class WelcomeController extends Controller {
 	public function about()
 	{
 		return view('pages.about');
+	}
+	
+	public function info()
+	{
+		return view('pages.info');
 	}
 
 }
