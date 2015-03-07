@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace PizzaOrder\Commands;
 
 abstract class Command {
 

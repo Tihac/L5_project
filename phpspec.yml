@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: PizzaOrder
+        psr4_prefix: PizzaOrder
         src_path: app

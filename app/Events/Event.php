@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace PizzaOrder\Events;
 
 abstract class Event {
 
