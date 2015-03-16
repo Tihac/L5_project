@@ -8,11 +8,6 @@
 <body>
 <h1>This is Info Page</h1>
 
-<?php 
-$site_name = Config::get('app.sitename');
-$email_address = Config::get('mail.username');
-?>
-
 Site name: {{$site_name}} <br />
 E-mail: {{$email_address}}
 </body>

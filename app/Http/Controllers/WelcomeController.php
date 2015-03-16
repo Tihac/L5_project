@@ -49,7 +49,13 @@ class WelcomeController extends Controller {
 	
 	public function info()
 	{
-		return view('pages.info');
+		$site_name = Config::get('app.sitename');
+		$email_address = Config::get('app.mail');
+		
+		return view('pages.info', compact('site_name', 'email_address')); 
+		//compact funkcija - potraži varijablu prema imenu ključa
 	}
+	
+
 
 }
