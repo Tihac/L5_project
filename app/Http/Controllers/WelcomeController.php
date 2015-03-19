@@ -55,7 +55,7 @@ class WelcomeController extends Controller {
 		return view('pages.info', compact('site_name', 'email_address')); 
 		//compact funkcija - potraži varijablu prema imenu ključa
 	}
-	
+
 
 
 }

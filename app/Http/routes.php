@@ -17,6 +17,10 @@ Route::get('info', 'WelcomeController@info');
 
 Route::get('about-me', 'WelcomeController@about');
 
+Route::get('ingredients-form', 'IngredientsController@index');
+
+Route::post('ingredients-save', 'IngredientsController@save');
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
